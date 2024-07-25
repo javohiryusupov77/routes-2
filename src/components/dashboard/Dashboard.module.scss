@@ -1,0 +1,140 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.part1 {
+    width: 30%;
+    height: 100vh;
+    border-radius: 50px;
+    background: #f4f4f4;
+}
+
+.part2 {
+    padding-top: 5rem;
+    width: 68%;
+    height: 100vh;
+    border-radius: 50px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.hamburger {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.SearchContainer {
+    display: flex;
+    align-items: center;
+}
+
+.inputType {
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    border: none;
+    outline: none;
+    margin-left: 37px;
+    width: 264px;
+    height: 33px;
+    background: #ebebeb;
+}
+
+.search {
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    transform: translateX(45px);
+    background: #ebebeb;
+    padding: 0.6rem;
+}
+
+.upcoming {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.arrowRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.lists {
+    display: flex;
+    align-items: center;
+    gap: 5px
+}
+
+.colorType {
+    width: 25px;
+    height: 15px;
+    border-radius: 50px;
+}
+.todoForm {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.inputType {
+    flex: 1;
+    padding: 0.5rem;
+    margin-right: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.addButton {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.todoList {
+    list-style-type: none;
+    padding: 0;
+}
+
+.todoItem {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin-left: 2.5rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-bottom: solid 0.5px;
+    border-radius: 4px;
+}
+
+.todoItem span {
+    flex: 1;
+    margin-left: 0.5rem;
+    border: none;
+}
+
+.todoItem input[type="checkbox"] {
+    margin-right: 0.5rem;
+}
+
+.todoItem.done span {
+    text-decoration: line-through;
+}
+
+.deleteButton {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+    cursor: pointer;
+}
+.imagePart{
+    display: flex;
+    gap: 10px;
+}

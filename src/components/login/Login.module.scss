@@ -1,0 +1,77 @@
+$radius: 8px;
+
+.containerMain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.login {
+    width: min(580px, 90vw);
+    margin: auto;
+    padding: 1rem;
+    padding-top: 6rem;
+    height: 722px;
+    background: #FFF9F9;
+    border-radius: 40px;
+
+    button[type="submit"] {
+        background: #76DE37;
+        color: #fff;
+        width: 100%;
+    }
+}
+
+.form-control {
+    margin-bottom: 2em;
+
+    label {
+        display: block;
+        text-align: left;
+    }
+
+    input {
+        display: block;
+        width: 100%;
+        border-radius: $radius;
+        border: 1px solid;
+    }
+}
+
+.error {
+    color: red;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    width: 230px;
+    border: solid 0.8px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: #EBEBEB;
+    padding-inline: 1.5rem;
+    margin-block: 1rem;
+    border-radius: $radius;
+}
+
+.signUp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
